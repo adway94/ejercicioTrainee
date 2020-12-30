@@ -17,13 +17,13 @@ class Motocicleta {
 }
 
 
-class sistema {
+class Sistema {
 	constructor() {
 		this.vehiculos = []
 	}
-
-	// Metodo de consulta
-	cargarVehiculos() {
+		
+		// Metodo de consulta
+		cargarVehiculos() {
 		let vehiculos = []
 		vehiculos.push(new Automovil('Peugeot', '206', 4, 200000.00))
 		vehiculos.push(new Motocicleta('Honda', 'Titan', 125, 60000.00))
@@ -84,7 +84,7 @@ class sistema {
 	}
 }
 
-let app = new sistema
+let app = new Sistema
 app.cargarVehiculos()
 app.imprimirVehiculos()
 console.log('=============================')
